@@ -1,9 +1,12 @@
 {
-  "geode": "v5.0.0",
-  "gd": "*",
-  "id": "com.dozenhotdogs.robloxui",
+  "geode": "4.0.0",
+  "gd": {
+    "win": "*",
+    "android": "*"
+  },
+  "id": "dozenhotdogs.my_first_mod",
   "version": "v1.0.0",
-  "name": "Roblox UI Mod",
+  "name": "Roblox gd",
   "developer": "dozenhotdogs",
-  "description": "Roblox style UI"
+  "description": "My awesome mod"
 }
