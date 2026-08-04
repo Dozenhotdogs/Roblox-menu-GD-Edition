@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build Mod
-    uses: geode-sdk/build-geode-mod/.github/workflows/build.yml@main
+    uses: geode-sdk/build-geode-mod/.github/workflows/build.yml@v3
     with:
-      target: 'Android'
+      target: 'Android64'
       
