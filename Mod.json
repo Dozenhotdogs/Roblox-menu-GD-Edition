@@ -1,15 +1,9 @@
 {
-    "geode": "5.0.0",
-    "id": "dozenhotdogs.roblox_ui_mod",
-    "version": "1.0.0",
-    "name": "Roblox Menu Style",
-    "developer": "dozenhotdogs
-  ",
-    "description": "Transforms the Home Screen and Pause Menu into a modern Roblox UI layout.",
-    "dependencies": [
-        {
-            "id": "geode.loader",
-            "version": ">=5.8.2"
-        }
-    ]
+  "geode": "v5.0.0",
+  "gd": "*",
+  "id": "com.dozenhotdogs.robloxui",
+  "version": "v1.0.0",
+  "name": "Roblox UI Mod",
+  "developer": "dozenhotdogs",
+  "description": "Roblox style UI"
 }
