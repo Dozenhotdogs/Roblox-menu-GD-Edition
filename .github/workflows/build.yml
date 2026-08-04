@@ -1,22 +1,7 @@
-name: Build Geode Mod
+#include <Geode/Geode.hpp>
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+using namespace geode::prelude;
 
-jobs:
-  build:
-    name: Build Android Mod
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Build Mod
-        uses: geode-sdk/build-geode-mod@main
-        with:
-          target: 'Android64'
-          
+$on_mod(Loaded) {
+    log::info("Hello from my Geode mod!");
+}
